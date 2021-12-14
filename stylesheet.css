@@ -1,0 +1,144 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: century gothic,arial; 
+}
+html {
+	background-image: linear-gradient(180deg, #68b3ff, #0a147e);
+}
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	margin: auto;
+}
+li {
+    margin: auto 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    color: white;
+	transition: 0.5s;
+}
+li:hover {
+    color: black;
+	background-color: white;
+	transition: 0.5s;
+}
+li:hover a {
+	color: black;
+}
+nav {
+    text-align: right;
+    margin: 0px auto;
+    padding: 19px;
+    background-color:#3a3aff;
+	
+}
+div {
+    width: 500px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+form {
+    width: 500px;
+    margin: 0px auto;
+    padding: 20px;
+	align: center;
+}
+
+body {
+    /* background-image: linear-gradient(180deg, #68b3ff, #0a147e); */
+}
+.form {
+    width: 475px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.6s;
+}
+.form:hover {
+	background-color: #ffac62;
+	color: black;
+	transition: 0.6s;
+}
+.form:active {
+	background-color: white;
+	color: black;
+	transition: 0.6s;
+}
+.form:focus {
+	background-color: white;
+	color: black;
+	transition: 0.6s;
+}
+#Enter_Concern {
+    height: 125px;
+
+}
+label {
+	color: white;
+	font-weight: bold;
+}
+h1#Ft {
+	color: white;
+    margin: 20px auto 20px auto;
+    font-size: 82px;
+    font-variant-caps: all-small-caps;
+	text-align: center;
+}
+h1 {
+    text-align: center;
+    font-style:bold;
+}
+#button {
+	margin: auto;
+	align: center;
+	padding: 10px;
+	border-radius: 5px;
+	min-width: 100px;
+	border: none;
+	transition: 0.5s;
+}
+#button:hover {
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+}
+.inputAlign {
+	margin: -9px auto;
+}
+#formed {
+	margin-bottom: 50px;
+}
+footer {
+	text-align: center;
+	background-color: red;
+	padding: 10px;
+	display: none;
+}
+#hideme {
+	display: none;
+}
+#popup {
+	background-color: white;
+	padding: 50px;
+	max-width: 300px;
+	max-height: 200px;
+	align: center;
+	text-align: center;
+	border-radius: 5px;
+	margin: 200px auto auto auto;
+}
+a#button {
+	color: black;
+	text-decoration: none;
+	margin: 20px;
+}
+hr {
+	margin: 20px auto;
+}

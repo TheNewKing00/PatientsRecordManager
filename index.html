@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patient's Record</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <!-- <li><a href="">Home</a></li> -->
+                <li><a href="about.php">About</a></li>
+				<li><a href="index.html">Form</a></li>
+            </ul>
+        </nav>
+        <div id="formed">
+            <form action="insert1.php" method="get">
+                <h1 id="Ft">Patient's Record</h1>
+				<div class="inputAlign">
+					<label for="date">Desired Date</label>
+					<input class="form" type="date" name="date" id="date">
+				</div>
+				<br>
+				<div class="inputAlign">
+					<label for="name" required>Name</label>
+					<input class="form" type="text" name="name" placeholder="Your Name" id="name">
+                </div>
+				<br>
+				<div class="inputAlign">
+					<label for="age" required>Age</label>
+					<input class="form"  type="age" name="age" placeholder="Your Age" id="age">
+                </div>
+				<br>
+				<div class="inputAlign">
+					<label for="Mobile_Number" required>Mobile Number</label>
+					<input class="form"  type="tel" name="Mobile_Number" placeholder="Mobile Number" id="Mobile_Number">
+                </div>
+				<br>
+				<div class="inputAlign">
+					<label for="email" required>Email</label>
+					<input class="form"  type="email" name="email" placeholder="Email" id="email">
+                </div>
+				<br>
+				<div class="inputAlign">
+					<label for="address" required>Address</label>
+					<input class="form"  type="text" name="address" placeholder="Address" id="address">
+                </div>
+				<br>
+				<div class="inputAlign">
+					<label for="Enter_Concern">Enter Main Concern</label>
+					<textarea class="form" maxlength="255fjhSGD" type="text" name="Enter_Concern" placeholder="Enter Your Concern" id="Enter_Concern"></textarea>
+                </div>
+				<br>
+				<div class="inputAlign">
+                <input type="submit" value="Submit" id="button">
+				<input type="reset" value="Reset" id="button">
+				</div>
+            </form>
+        </div>
+    </body>
+    <footer>
+		<p>Testing webpage only</p>
+		<p id="hideme">Create Table patients (date varchar(30), names varchar(30), age int(3), mobiles varchar(15), emails varchar(25), addresses varchar(100), concerns varchar(255));</p>
+    </footer>
+</html>
